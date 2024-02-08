@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* tieu de */
+.tieude{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    height: 58.4px;
+}
+.tieude_demuc{
+    color: #a7a9a9;
+    padding: 10px;
+}
+.tieude_icon1{
+    background-color: rgb(14 192 192);
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 28px;
+}
+.tieude_trai{
+    display: flex;
+}
+.tieude_phone{
+    display: flex;
+    align-items: center;
+}
+.tieude_phone1{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.tieude_email{
+    display: flex;
+    align-items: center;
+}
+.tieude_email1{
+    color:rgb(14 192 192) ;
+}
+.tieude_phai{
+    display: flex;
+    align-items: center;
+}
+.tieude_phai .tieude_demuc{
+    margin-right: 10px;
+}
+.tieude_twitter{
+    border-left:1px solid #707171 ;
+}
+.tieude_twitter,.tieude_face,.tieude_drib{
+    color: white;
+    padding: 10px 17px 10px 17px;
+    border-right:1px solid #707171 ;
+    line-height: 2;
+}
+/* hover tieu de */
+.tieude_email1:hover{
+    cursor:pointer;
+    opacity: 0.8;
+}
+.tieude_twitter:hover{
+    background-color: rgb(74, 197, 242);
+}
+.tieude_face:hover{
+    background-color: rgb(39, 39, 255);
+}
+.tieude_drib:hover{
+    background-color: rgb(249, 115, 138);
+}
+/* menu */
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.menu_trai{
+    display: flex;
+    line-height: 96px;
+}
+.menuchu_trai{
+    padding-left: 20px;
+    color: #8a8c8c;
+}
+.menu_phai{
+    display: flex;
+    line-height: 96px;
+}
+.home,.features,.templates,.elements,.docs{
+    padding-right: 30px;
+}
+.home{
+    color: rgb(14 192 192);
+}
+.drop_home,.drop_features,.drop_templates,.drop_elements,.drop_docs{
+    display: none;
+    position: relative;
+}
+.drop{
+    padding-left: 30px;
+    border-bottom: 1px solid #8a8c8c;
+}
+/* hover menu */
+img:hover{
+    cursor: pointer;
+}
+.chu:hover{
+    cursor: pointer;
+    color: rgb(14 192 192);
+}
+.home:hover .drop_home{
+    display: block;
+    position: absolute;
+    background-color: black;
+    color: #8a8c8c;
+    width: 15%;
+    font-size: large;
+    cursor: pointer;
+}
+.features:hover .drop_features{
+    display: block;
+    position: absolute;
+    background-color: black;
+    color: #8a8c8c;
+    width: 15%;
+    font-size: large;
+    cursor: pointer;
+}
+.templates:hover .drop_templates{
+    display: block;
+    position: absolute;
+    background-color: black;
+    color: #8a8c8c;
+    width: 15%;
+    font-size: large;
+    cursor: pointer;
+}
+.elements:hover .drop_elements{
+    display: block;
+    position: absolute;
+    background-color: black;
+    color: #8a8c8c;
+    width: 15%;
+    font-size: large;
+    cursor: pointer;
+}
+.docs:hover .drop_docs{
+    display: block;
+    position: absolute;
+    background-color: black;
+    color: #8a8c8c;
+    width: 15%;
+    font-size: large;
+    cursor: pointer;
+}
+.drop:hover{
+    color: rgb(14 192 192);
+    background-color: rgb(31, 32, 39);
+}

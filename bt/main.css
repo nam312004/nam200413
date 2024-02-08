@@ -1,0 +1,366 @@
+*{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primari-color:#333e48;
+    --White-color : #fff;
+    --Black-color : #000;
+    --text-color : #252a2b;
+    --border-color: #dbdbdb; 
+    --header-height: 80px;
+    --header-height-mobile-table: 60px;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; 
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    -webkit-tap-highlight-color: transparent;
+}
+.wrap{
+    overflow: hidden;
+    
+}
+.content{
+    width: 100%;
+    height: 100%;
+}
+.first-img{
+    width: 100%;
+    height: 100%;
+}
+.second-img {
+    width: 100%;
+    height: 100%;
+}
+.first-thumbnail{
+    position: relative;
+    height: 720px;
+}
+.container{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+.container-child{
+    font-size: 4rem;
+    color: var(--White-color);
+    padding: 45px 0;
+}
+.container-big{
+    font-size: 8rem;
+    color: var(--White-color);
+}
+.content-note{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+}
+.content-border{
+    border: 1px solid var(--White-color);
+    width: 10%;
+    
+}
+.content-note-child{
+    color: var(--White-color);
+    font-size: 2rem;
+    padding: 4px 0;
+    width: 40%;
+}
+.icon-note{
+    display: flex;
+    color: var(--White-color);
+    
+}
+.icon-item{
+    padding: 1px 8px;
+    font-size: 1.6rem;
+}
+.second-thumbnail{
+    width: 100%;
+    position: relative;
+}
+.second-thumbnail-content{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+.second_-content{
+    font-size: 7rem;
+    font-weight: 200;
+    color: var(--text-color);
+    padding: 22px 0;
+}
+.second-content-note{
+    font-size: 4.5rem;
+    color: var(--text-color);
+    padding: 30px 0;
+}
+.cecond__icon-list{
+  display: flex;
+}
+.second-icon{
+    display: flex;
+    margin-left: 60%;
+}
+.second-icon-content{
+    font-weight: 100;
+    font-size: 2rem;
+}
+.second-icon-child{
+    padding: 0 8px;
+}
+.second-icon-first{
+    font-size: 1.4rem;
+    width: 100%;
+}
+.second__icon-child{
+ text-align: center;
+}
+.third-thumbnail{
+    margin-top: 75px;
+    position: relative;
+}
+.third-img{
+    width: 80%;
+    margin-left: 10%;
+}
+.third-box{
+    width: 200px;
+    height: 325px;
+    background-color: var(--White-color);
+    position: absolute;
+    top: -50px;
+    left: 20%;
+    text-align: center;
+    box-shadow: 1px 0px 1px rgba(0, 0,0, 0.2);
+}
+.third-content{
+    margin-top: 20px;
+    color: var(--text-color);
+    font-size: 3rem;
+    height: 50px;
+    line-height: 25px;
+}
+.third-border{
+    border: 1px solid #565555;
+    width: 70%;
+    text-align: center;
+    margin-left: 27px;
+}
+.third-note{
+    color: #666;
+    font-size: 2rem;
+    padding: 15px 0;
+}
+.third-item{
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+}
+.third-icon{
+    font-size: 1.2rem;
+    padding: 0 5px;
+    height: 12px;
+    line-height: 15px;
+}
+.third-item-content{
+    font-size: 1.8rem;
+}
+.third-footer{
+    padding-top: 80px;
+}
+.third-footer-content{
+    font-size: 1.6rem;
+    margin-right: 35px;
+    padding: 4px 0;
+}
+.third-footer-border{
+    border: 1px solid #333;
+    width: 80%;
+    margin-left: 16px;
+}
+.third-footer-content1{
+    font-size: 1.4rem;
+    padding: 4px 0;
+}
+.fourth-thumbnail{
+    margin-top: 12px;
+}
+.fourth-thumbnail-content{
+    margin-top: 75px;
+    font-weight: 100;
+    font-size: 3rem;
+    margin-left: 10%;
+}
+.fourth-thumbnail-note{
+    padding: 36px 0;
+    margin-left: 10%;
+    font-size: 6rem;
+    color: rgb(102, 224, 102);
+}
+.fourth-notebox{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.fourth-note{
+    font-size: 1.8rem;
+    margin-left: 10%;
+}
+.note-select-4{
+    margin-right: 10%;
+    font-size: 2rem;
+    background-color: green;
+    color: var(--White-color);
+    padding: 5px 12px;
+}
+.fourth-list{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 12px 0;
+}
+.fourth-note-child{
+    width: 30%;
+    list-style: none;
+    padding: 0 4px;
+    text-align: center;
+}
+.fourth-note-child-img{
+    width: 90%;
+
+}
+.fifth-thumbnail{
+    position: relative;
+    
+}
+
+.fifth-thumbnail-content{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+.fifth-content{
+    font-size: 7rem;
+    width: 10%;
+    height: 40px;
+    line-height: 60px;
+}
+.fifth-content-note{
+    padding: 145px 0;
+    font-size: 3rem;
+    width: 56%;
+    line-height: normal;
+}
+
+.banner-six{
+    position: relative;
+}
+.banner-six__conntent{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.six-content{
+    font-size: 6rem;
+    width: 30%;
+    line-height: normal;
+}
+.six-content-note{
+    font-size: 3rem;
+    width: 30%;
+    line-height: normal;
+}
+.banner-six-img__child{
+    position: absolute;
+    top: 0;
+    display: flex;
+    right: 0;
+    margin-right: -230px;
+}
+.six-img__child {
+    width: 20%;
+    height: 20%;
+    position: relative;
+    left: 70px;
+}
+.six-img__child-add{
+    padding-top: 130px;
+}
+.banner-seven{
+    position: relative;
+}
+.banner-seven__conntent{
+    position: absolute;
+    top: 50%;
+    right: 1%;
+}
+.seven-content{
+    font-size: 5rem;
+    width: 70%;
+    line-height: normal;
+    color: var(--White-color);
+}
+.seven-content-note{
+    padding: 8px 0;
+    margin-left: 30%;
+    font-size: 2rem;
+    color: var(--White-color);
+}
+.seven-content-note__add{
+    font-size: 1.6rem;
+    color: var(--White-color);
+}
+.banner-container__list{
+    text-align: center;
+    display: flex;
+}
+.under-note-item {
+    color: green;
+    font-size: 13px;
+}
+
+.container__list-child{
+    width: 25%;
+    list-style: none;
+}
+.banner-eight-content{
+   text-align: center;
+   padding: 25px;
+}
+.eight-content{
+    font-size: 4rem;
+  padding: 20px;
+}
+.eight-content-note{
+    font-size: 3rem;
+}
+.last-thumbnail{
+    position: relative;
+}
+.last-thumbnail-content{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+.last-content{
+    font-size: 4rem;
+    width: 40%;
+    line-height: normal;
+    color: var(--White-color);
+}
+.container :hover {
+    color: yellow;
+}
+
+
+.banner-container__list :hover {
+    transform: scale(1.3);
+    opacity: 0.6;
+}
